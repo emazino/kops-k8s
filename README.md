@@ -104,7 +104,7 @@ kops validate cluster
  * ssh to the master: ssh -i ~/.ssh/id_rsa ubuntu@api.class.k8s.local
  * the ubuntu user is specific to Ubuntu. If not using Ubuntu please use the appropriate user based on your OS.
  * read about installing addons at: https://kops.sigs.k8s.io/operations/addons.
-
+## If validate does not work, then run the command in no 10
 ## 10b - Export the kubeconfig file to manage your kubernetes cluster from a remote server. For this demo, Our remote server shall be our kops server 
 ```sh
  kops export kubecfg $NAME --admin
